@@ -13,6 +13,7 @@
 	<http pattern="/" security="none" />
 	<http pattern="/favicon.ico" security="none" />
 	<http pattern="/heepayNotify/*" security="none" />
+	<http pattern="/openAccess/**" security="none" />
 
 	<http use-expressions="true" auto-config="true">
 		<form-login login-page="/"

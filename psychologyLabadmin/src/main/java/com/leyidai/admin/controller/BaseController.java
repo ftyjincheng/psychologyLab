@@ -12,7 +12,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
 import com.leyidai.admin.security.LYDAdminUserDetails;
-import com.leyidai.admin.service.AreaService;
 import com.leyidai.entity.Area;
 import com.leyidai.entity.BackstageAdminUser;
 import com.leyidai.entity.Resource;
@@ -21,8 +20,7 @@ import com.leyidai.entity.ResourceCategory;
 public class BaseController {
 	private static final Logger log = LoggerFactory.getLogger(BaseController.class);
 	
-	@Autowired
-	private AreaService areaService;
+
 	
 	public BackstageAdminUser getSessionAdminUser(){
 		BackstageAdminUser sessionAdminUser = null;
@@ -66,7 +64,7 @@ public class BaseController {
 	 * @return
 	 */
 	public List<Area> getAreas(){
-		return areaService.getAreas();
+		return null;
 	}
 	
 	/**

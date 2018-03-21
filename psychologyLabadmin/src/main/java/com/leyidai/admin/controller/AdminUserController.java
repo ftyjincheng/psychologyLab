@@ -57,9 +57,7 @@ public class AdminUserController extends BaseController {
 			} else{
 				groups = sessionAdminUser.getGroups();
 			}
-			
 		}
-		
 		return groups;
 	}
 	

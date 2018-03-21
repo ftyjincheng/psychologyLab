@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	
+
 	<jsp:include page="../include/headTag.jsp" />
 
 </head>
@@ -33,7 +33,7 @@
 	<jsp:include page="../include/menues.jsp">
 		<jsp:param value="${operator }" name="menu"/>
 	</jsp:include>
-	
+
 	<div class="content">
 
 		<ul class="breadcrumb">

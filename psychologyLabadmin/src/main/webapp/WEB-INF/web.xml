@@ -111,7 +111,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	</context-param>
 	<context-param>
 		<param-name>webAppRootKey</param-name>
-		<param-value>projectmasteradmin.root</param-value>
+		<param-value>psychologyLabadmin.root</param-value>
 	</context-param>
 
 	<!-- delete jsessionid -->
